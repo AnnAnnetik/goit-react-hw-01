@@ -1,28 +1,17 @@
-const FriendListItem = ({ avatar, name, isOnline }) => {
-  return (
-    <div>
-      <img src={avatar} alt="Avatar" width="48" />
-      <p>{name}</p>
-      {isOnline ? <p>Online</p> : <p>Offline</p>}
-    </div>
-  );
-};
-
-const FriendList = ({ friends }) => {
-  return (
-    <ul>
-      {friends.map(friend => {
-        return (
-          <li key={friend.id}>
-            <FriendListItem
-              avatar={friend.avatar}
-              name={friend.name}
-              isOnline={friend.isOnline}
-            />
-          </li>
-        );
-      })}
-    </ul>
-  );
-};
-export default FriendList;
+// import FriendListItem from "./FriendListItem/FriendListItem";
+// import css from "./FriendList.module.css"
+// const FriendList = ({ friends }) => {
+//   return (
+//     <ul className={CSS.FriendList}>
+//       {Array.isArray(friends)&& friends.map((friend) => {
+//         return (
+//                      <FriendListItem key={friend.id} friend={friend}
+              
+//             />
+          
+//         );
+//       })}
+//     </ul>
+//   );
+// };
+// export default FriendList;
