@@ -1,6 +1,9 @@
 .friendItem {
   border: 1px solid black;
 }
-.full {
+.offline {
   color: red;
+}
+.online {
+  color: green;
 }

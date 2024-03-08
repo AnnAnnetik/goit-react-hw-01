@@ -1,0 +1,16 @@
+.conteyner {
+  border-collapse: collapse;
+  width: 100%;
+}
+.hero {
+  background-color: gray;
+}
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
+tbody tr:nth-child(even) {
+  background-color: rgb(181, 185, 181);
+}
